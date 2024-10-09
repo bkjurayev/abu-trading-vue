@@ -33,7 +33,7 @@
       <!--  -->
 
       <!-- Open cource -->
-      <div class="m-6-timer" data-time="09/07/2024 11:59 пп">
+      <div v-if="totalDays >= 1" class="m-6-timer" data-time="09/07/2024 11:59 пп">
         <div class="m-6-timer-title m-6-timer-title--end text-green">
           Qabul ochilishigacha:
         </div>
